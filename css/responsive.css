@@ -36,6 +36,42 @@
     .card-purple p {
         padding: 1rem;
     }
+
+    .row-card-white {
+        display: flex;
+        
+    }
+
+    .card-white {
+        position: relative;
+        
+    }
+
+    .purple-button {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        margin-top: 1rem;
+        
+    }
+
+    .card-white p {
+        padding-bottom: 3rem;
+    }
+
+    /* About us section  */
+    .about-us {
+        display: flex;
+        padding: 2rem;
+        gap: 1rem;
+        
+    }
+
+    .col-about-us {
+        width: 50%;
+        
+    }
+    
 }
 
 @media screen and (min-width: 992px)  {
@@ -63,5 +99,34 @@
         padding: 1rem;
     }
 
-    
+    /* Purple section  */
+
+    .app-development {
+        padding: 2rem;
+    }
+      
+    .card-purple {
+        display: flex;
+       
+    }
+
+    .card-purple p {
+        padding: 1rem;
+    }
+
+    .row-card-white {
+        display: flex;
+    }
+
+    .card-white {
+        position: relative;
+    }
+
+    .purple-button {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        margin-top: 1rem;
+        
+    }
     }

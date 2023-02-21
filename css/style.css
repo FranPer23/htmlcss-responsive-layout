@@ -109,6 +109,8 @@
     
 }
 
+
+
 /* Testimonial section */
 
 
@@ -147,6 +149,14 @@
     
 }
 
+.purple-button {
+    border-radius: 20px;
+    background-color: #9893e4;
+    color: white;
+    padding: .5rem;
+    width: 50%;
+    text-align: center;
+}
 /* Benefits section  */
 
 .about-us {
