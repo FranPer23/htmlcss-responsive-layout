@@ -17,7 +17,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    z-index: 999;
+    margin-bottom: 2rem;
    
+}
+
+.row {
+    margin: 0 1rem;
 }
 
 .top-header i {
@@ -31,9 +37,19 @@
 .card {
     border: 1px solid #b5ddff;
     border-radius: 5%;
-    margin: 2rem;
+
+    margin-bottom: 2rem;
 
 }
+
+
+
+.card-content img {
+    display: block;
+    height: 100%;
+
+}
+
 
 .card h2 {
     color: #0084fd;
@@ -54,6 +70,7 @@
 
 .purple {
     background-color: #9792e4;
+    padding-bottom: 2rem;
 }
 
 .purple img {
@@ -72,17 +89,23 @@
     border-radius: 5%;
     margin: 2rem;
     background-color: white;
-    position: relative;
-   
+    
+}
+
+.content-app-development {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .arrow {
+    margin-top: 1rem;
     border-radius: 50%;
-    width: 8%;
+    width: 10%;
     background-color:#9792e4;
-    text-align: center;
-    position: absolute;
-    left: 50%;
+    
 }
 
 /* Testimonial section */
@@ -168,13 +191,11 @@
     padding-top: 3rem;
     margin: 0 auto;
     width: 80%;
+    color: white;
     
 }
 
-.huge {
-    color: #fdc15f;
-    font-size: xx-large;
-}
+
 
 .get-srtd {
     border-radius: 25px;
@@ -185,3 +206,12 @@
     text-align: center;
 }
 
+.huge {
+    color: #fdc15f;
+    font-size: xx-large;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}

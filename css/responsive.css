@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+    
+    /* Blue section  */
+    .row {
+        display: flex;
+        padding: 1rem;
+        gap: 1rem;
+        
+    }
+
+
+    .height {
+        height: 100%;
+    }
+    
+    .row .beginning {
+        width: calc(100% / 3 * 2);
+        
+    }
+
+    .card {
+        display: flex
+    }
+
+    /* Purple section  */
+
+    .app-development {
+        padding: 2rem;
+    }
+    
+    
+  
+
+    
+   
+
+    
+    
+
+}
+
+@media screen and (min-width: 992px)  {
+
+    /* Purple section  */
+    .purple-container {
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+       
+    }
+
+
+    .col-1 {
+        width: 50%;
+    }
+
+    .col-2 {
+        width: 50%;
+        margin-top: 14rem;
+    }
+
+    .app-development {
+        margin: 0;
+        padding: 1rem;
+    }
+}
