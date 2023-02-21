@@ -27,16 +27,15 @@
     .app-development {
         padding: 2rem;
     }
-    
-    
-  
+      
+    .card-purple {
+        display: flex;
+       
+    }
 
-    
-   
-
-    
-    
-
+    .card-purple p {
+        padding: 1rem;
+    }
 }
 
 @media screen and (min-width: 992px)  {
@@ -63,4 +62,6 @@
         margin: 0;
         padding: 1rem;
     }
-}
+
+    
+    }

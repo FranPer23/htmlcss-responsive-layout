@@ -71,6 +71,7 @@
 .purple {
     background-color: #9792e4;
     padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .purple img {
@@ -103,7 +104,7 @@
 .arrow {
     margin-top: 1rem;
     border-radius: 50%;
-    width: 10%;
+    padding: 1rem;
     background-color:#9792e4;
     
 }
@@ -132,13 +133,18 @@
 
 .card-purple {
     background-color: #9893e4;
-    border-radius: 5%;
+    border-radius: 20px;
     margin: 2rem;
+    padding: 1rem;
+    color: white;
 }
 
 .people img {
-    border-radius: 100%;
-    width: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
 }
 
 /* Benefits section  */
@@ -162,8 +168,9 @@
 
 .card-white {
     background-color: white;
-    border-radius: 5%;
+    border-radius: 20px;
     margin: 2rem;
+    padding: 1rem;
 }
 
 .card-white h2 {
